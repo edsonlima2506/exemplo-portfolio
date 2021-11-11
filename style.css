@@ -1,0 +1,47 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+.barraSuperior {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barraSuperior h1 {
+    color: #00a577;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.barraSuperior ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraSuperior ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.barraSuperior button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00a577;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.barraSuperior button:hover {
+    border: #00a577 2px solid;
+    background: none;
+    color: #00a577;
+}
